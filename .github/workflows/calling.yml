@@ -2,5 +2,7 @@ name: calling
 on: [workflow_dispatch]
 jobs:
   calling:
-    uses: TestingMen/Test/callme.yml@main
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo $GITHUB_REPOSITORY
   
