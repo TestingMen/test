@@ -2,7 +2,5 @@ name: calling
 on: [workflow_dispatch]
 jobs:
   calling:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo calling
+    uses: sark1-projects/Main/.github/workflows/callme.yml@main
   
