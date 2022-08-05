@@ -4,5 +4,7 @@ jobs:
   calling:
     runs-on: ubuntu-latest
     steps:
-      - run: echo $GITHUB_REPOSITORY
+      - run: echo $basename $GITHUB_REPOSITORY
+      - run: echo $(basename $GITHUB_REPOSITORY)
+      - run: echo $basename $GITHUB_REPOSITORY
   
