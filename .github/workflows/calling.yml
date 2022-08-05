@@ -1,0 +1,8 @@
+name: calling
+on: [workflow_dispatch]
+jobs:
+  calling:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo calling
+  
