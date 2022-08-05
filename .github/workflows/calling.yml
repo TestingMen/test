@@ -4,7 +4,5 @@ jobs:
   calling:
     runs-on: ubuntu-latest
     steps:
-      - run: echo $basename $GITHUB_REPOSITORY
-      - run: echo $(basename $GITHUB_REPOSITORY)
-      - run: echo $basename $GITHUB_REPOSITORY
+      - uses: TestingMen/Test/callme.yml@main
   
